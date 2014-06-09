@@ -1,0 +1,17 @@
+export PATH=YOUR_WORKING_DIRECTORY/alps/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6/bin:$PATH
+
+cd YOUR_WORKING_DIRECTORY/alps_asus/kernel
+
+TARGET_PRODUCT=asus89_tb_jb2 MTK_ROOT_CUSTOM=../mediatek/custom MTK_PATH_SOURCE=../mediatek/kernel/ make -j 24
+
+
+*****************************************************************************************
+*****************************************************************************************
+
+This sources are FAKE, ASUS is NOT complying with GPL
+
+The Project Configs are NOT for the MEMO PAD HD 7
+
+This are untouched Sources, the same you can download from ASUS support web page.
+******************************************************************************************
+******************************************************************************************
